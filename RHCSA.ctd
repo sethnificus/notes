@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cherrytree>
+  <bookmarks list=""/>
+  <node name="Linux" unique_id="1" prog_lang="custom-colors" tags="" readonly="0" custom_icon_id="0" is_bold="1" foreground="" ts_creation="1620038433" ts_lastsave="1620051298">
+    <node name="Grep" unique_id="2" prog_lang="custom-colors" tags="" readonly="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1620042436" ts_lastsave="1620042436"/>
+    <node name="SystemD" unique_id="3" prog_lang="custom-colors" tags="" readonly="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1620043418" ts_lastsave="1620043438"/>
+    <node name="VI/VIM" unique_id="4" prog_lang="custom-colors" tags="" readonly="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1620043438" ts_lastsave="1620043442"/>
+    <node name="NetWorking" unique_id="5" prog_lang="custom-colors" tags="" readonly="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1620043482" ts_lastsave="1620043482"/>
+    <node name="FileSystem" unique_id="6" prog_lang="custom-colors" tags="" readonly="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1620051298" ts_lastsave="1620051298"/>
+  </node>
+</cherrytree>
